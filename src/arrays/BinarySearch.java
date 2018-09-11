@@ -41,7 +41,7 @@ public class BinarySearch {
 	}
 	public static void main(String [] args){
 		int[] arr = {1,2,3,66,89,60,20,100,110};
-		System.out.println("Key at(12) found at: "+bin_search(arr,66));
-		System.out.println("Key at(12) found at: "+bin_search(arr,2));
+		System.out.println("Key at(12) found at: "+bin_search(arr,66)); //Key at(12) found at: 3
+		System.out.println("Key at(12) found at: "+bin_search(arr,2));//Key at(12) found at: 1
 	}
 }
